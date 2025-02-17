@@ -11,7 +11,7 @@ const Home = () => {
     <div className="flex bg-gradient-to-r from-blue-500 to-indigo-700">
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen } data-aos="fade-left"/>
 
-      <div className="flex-1 flex flex-col md:ml-64 p-4 md:p-8">
+      <div className="flex-1 flex flex-col  p-4 md:p-8">
       <Navbar toggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
         <div className="mt-40 text-white text-center">
           <h1 className="text-4xl font-bold mb-4" data-aos="fade-up">Doctor's Home Page</h1>

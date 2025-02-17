@@ -5,7 +5,7 @@ import { useState } from "react";
 const Dashboard = () => {
       const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div className="flex h-full bg-yellow-100">
      <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       <div className="flex-1 flex flex-col">
       <Navbar toggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
