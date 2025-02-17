@@ -10,12 +10,12 @@ const Patient = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex bg-gradient-to-r from-green-500 to-teal-700">
+    <div className="flex bg-gradient-to-r from-green-500 to-teal-700 h-full">
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} data-aos="fade-left" />
 
-      <div className="flex-1 flex flex-col p-4 md:p-8">
+      <div className="flex-1 flex flex-col">
         <Navbar toggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
-        <div className="mt-40 text-white text-center">
+        <div className="mt-40 text-white text-center p-4">
           <h1 className="text-4xl font-bold mb-4" data-aos="fade-up">Patient's Profile</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
   {patients.map((patient, index) => (
@@ -37,7 +37,7 @@ const Patient = () => {
 </div>
         </div>
 
-        <div className="mt-12" data-aos="fade-up">
+        <div className="mt-12 p-4" data-aos="fade-up">
           <div className="bg-gradient-to-br from-gray-800 to-gray-700 bg-opacity-50 p-6 rounded-lg shadow-xl backdrop-blur-lg">
             <h2 className="text-3xl font-semibold mb-4">Medical Records & Stats</h2>
             <ul className="space-y-2">
@@ -49,7 +49,7 @@ const Patient = () => {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6" data-aos="fade-up">
+        <div className="mt-12 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6 p-4" data-aos="fade-up">
           <div className="bg-gradient-to-br from-gray-800 to-gray-700 bg-opacity-50 px-4 py-10 text-white p-6 rounded-lg shadow-xl backdrop-blur-lg w-full md:w-1/2">
             <h2 className="text-3xl font-semibold mb-4">Update Medical Info</h2>
             <form className="space-y-4">

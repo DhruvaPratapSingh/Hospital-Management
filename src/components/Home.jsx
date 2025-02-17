@@ -14,7 +14,7 @@ const Home = () => {
       <div className="flex-1 flex flex-col  p-4 md:p-8">
       <Navbar toggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
         <div className="mt-40 text-white text-center">
-          <h1 className="text-4xl font-bold mb-4" data-aos="fade-up">Doctor's Home Page</h1>
+          <h1 className="text-4xl font-bold mb-4" data-aos="fade-up">Doctor's Appointment Page</h1>
           <div
             className="bg-gradient-to-br from-gray-600 via-gray-500 to-black bg-opacity-50 p-6 rounded-lg shadow-xl md:flex md:gap-8 md:flex-row md:items-center backdrop-blur-lg"
             data-aos="fade-left"
@@ -27,7 +27,7 @@ const Home = () => {
               </p>
             </div>
             <div className="md:w-1/2 mt-6 md:mt-0 " data-aos="zoom-in">
-              <img src="/doctor.webp" alt="Doctor" className="w-full h-auto rounded-lg shadow-2xl" />
+              <img src="/img6.webp" alt="Doctor" className="w-full h-auto rounded-lg shadow-2xl" />
             </div>
           </div>
         </div>
