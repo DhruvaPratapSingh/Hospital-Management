@@ -38,7 +38,7 @@ const Navbar = ({ toggleSidebar }) => {
       <button onClick={toggleSidebar} className="md:hidden text-2xl">
         <FaBars />
       </button>
-      <input type="text" placeholder="Search..." className="w-full md:w-96 px-4 py-2 border rounded-lg ml-[30%]" />
+      <input type="text" placeholder="Search..." className="w-[60%] md:w-96 px-4 py-2 border rounded-lg md:ml-[30%]" />
       <div className="flex items-center space-x-4 ">
         <span className="hidden md:flex text-gray-700 font-semibold">Dr. Marcus Kim</span>
         <img onClick={homeview} src="/img3.webp" alt="User Avatar" className="rounded-full w-10 h-10 border cursor-pointer" />

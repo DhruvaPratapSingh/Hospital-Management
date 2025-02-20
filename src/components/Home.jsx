@@ -8,7 +8,7 @@ const Home = () => {
   }, []);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
-    <div className="flex bg-gradient-to-r from-blue-500 to-indigo-700">
+    <div className="flex bg-gradient-to-r from-gray-400 to-indigo-700">
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen } data-aos="fade-left"/>
 
       <div className="flex-1 flex flex-col  p-4 md:p-8">

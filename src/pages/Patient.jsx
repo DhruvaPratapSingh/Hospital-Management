@@ -10,7 +10,7 @@ const Patient = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex bg-gradient-to-r from-green-500 to-teal-700 h-full">
+    <div className="flex bg-gradient-to-r from-green-500 to-teal-700 min-h-screen">
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} data-aos="fade-left" />
 
       <div className="flex-1 flex flex-col">
